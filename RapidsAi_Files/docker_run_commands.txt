@@ -1,0 +1,10 @@
+<---------------------------------------------------------------------------------------------->
+The below command is to pull the docker container if u have set up all the other dependencies
+
+docker pull rapidsai/rapidsai:cuda11.0-runtime-ubuntu18.04-py3.8
+<---------------------------------------------------------------------------------------------->
+The below command is used to run a jupyter notebook using the rapidsAI libraries
+
+docker run --gpus all --rm -it -p 8888:8888 -p 8787:8787 -p 8786:8786 rapidsai/rapidsai:cuda11.0-runtime-ubuntu18.04-py3.8
+<---------------------------------------------------------------------------------------------->
+@Vasanthagokul
